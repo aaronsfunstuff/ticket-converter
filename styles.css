@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -9,15 +9,51 @@ body {
 }
 
 .converter {
-    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 300px;
+}
+
+.converter h1 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.converter label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.converter input, .converter select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.converter button {
+    background-color: #6db3f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.converter button:hover {
+    background-color: #4a90e2;
 }
 
 #result {
     margin-top: 20px;
     font-size: 1.2em;
-    color: green;
+    color: #28a745;
 }
